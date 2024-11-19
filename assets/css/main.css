@@ -1,0 +1,680 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #000000;
+    --accent-color: #4A614D;
+    --accent-color-two: #BCA196;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main {
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration:none;
+}
+
+/*______________________________________Header settings______________________________________*/
+
+.logo-text {
+    font-family: "Montserrat";
+    font-size: 17px;
+}
+
+.dropdown-item {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.phone-number {
+    color: var(--accent-color);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.drop-down:hover {
+    background-color: #C6D4C3;
+}
+
+.list-group-horizontal-lg {
+    list-style: none;
+}
+
+.list-group-horizontal-lg li {
+    margin-right: 32px;
+}
+
+.list-group-horizontal-lg a {
+    transition: transform 0.3s;
+}
+
+.list-group-horizontal-lg a:hover {
+    transform: scale(1.07);
+}
+
+/*__________________________________________________________________________________________*/
+
+/*______________________________________Main settings______________________________________*/
+
+.butn {
+    font-family: "Montserrat"; 
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card {
+    width: 100%;
+    border: none;
+}
+
+.card-img-top {
+    width: 80%;
+    justify-content: center;
+}
+
+.card-title-main {
+    font-family: "Montserrat"; 
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-text-main {
+    font-family: "Montserrat"; 
+    font-weight: 400;
+    font-size: 15px;
+    width: 100%;
+}
+
+.types-title {
+    font-family: "Montserrat"; 
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.img-title {
+    font-family: "Montserrat"; 
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.example-title {
+    font-family: "Montserrat"; 
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.card-body {
+    background-color: #BCA196;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    top: 307px;
+}
+
+.card-text {
+    font-family: "Montserrat"; 
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--bg-color);
+    opacity: 100;
+}
+
+.card-title {
+    font-family: "Montserrat"; 
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--bg-color);
+    opacity: 100;
+}
+
+.blank-top-text {
+    font-family: "Montserrat"; 
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--bg-color);
+}
+
+.modal-title {
+    font-family: "Montserrat"; 
+    font-size: 30px;
+    color: var(--bg-color);
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.modal-top {
+    font-family: "Montserrat"; 
+    font-size: 15px;
+    color: var(--bg-color);
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.modal-bottom {
+    font-family: "Montserrat"; 
+    font-size: 18px;
+    color: var(--bg-color);
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.tab {
+    display: none;
+  }
+
+.tab:target {
+    display: block;
+}
+
+.recall {
+    font-family: "Montserrat"; 
+    font-weight: 500;
+    font-size: 44px;
+    color: var(--text-color);
+}
+
+.recall-bottom {
+    font-family: "Montserrat"; 
+    font-weight: 200; 
+    font-size: 16px;
+    color: var(--accent-color);
+}
+
+.tab {
+    background-color: #D7CEC5;
+    width: 405px;
+    height: 235px;
+    
+}
+
+.text-tabs {
+    font-family: "Montserrat"; 
+    font-weight: 400; 
+    font-size: 14px;
+    margin-left: 34px;
+}
+
+.website {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 19px;
+    color: var(--accent-color);
+}
+
+/*__________________________________________________________________________________________*/
+
+/*______________________________________Footer settings______________________________________*/
+
+.footer-title {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 25px;
+    color: var(--accent-color);
+    position: absolute; 
+    margin-top: 54px; 
+    margin-left: 98px;
+}
+
+.data-title-main {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 20px;
+    color: var(--bg-color);
+}
+
+.data-title {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 17px;
+    color: var(--bg-color);
+}
+
+.data-text {
+    font-family: "Montserrat"; 
+    font-weight: 400; 
+    font-size: 15px;
+    color: var(--bg-color);
+    margin-top: -15px;
+}
+
+/*____________________________________________________________________________________________*/
+
+/*_________________________________________1440px_____________________________________________*/
+
+@media screen and (max-width: 1440px) {
+
+    .main-image {
+        margin-left: -68px;
+    }
+
+    .header-top-logo {
+        margin-left: -50px;
+    }
+
+    .fw-400 {
+        margin-left: -60px;
+    }
+
+    .header-top-list {
+        margin-left: -90px;
+    }
+
+    .card-group {
+        margin-left: -55px;
+        width: 96%;
+    }
+
+    .carousel {
+        margin-left: -68px;
+    }
+
+    .types {
+        margin-left: -60px;
+    }
+
+    .example-title {
+        margin-right: 160px;
+    }
+
+    .image-green {
+        width: 80%;
+    }
+
+    .wallpaper-bottom {
+        margin-left: -120px;
+    }
+
+    .row {
+        margin-left: -80px;
+        width: 100%;
+    }
+
+    .blank-img {
+        margin-left: -80px;
+    }
+
+    .blank-top-text {
+        margin-left: -100px;
+    }
+
+    .map-img {
+        width: 90%;
+        margin-left: -10px;
+    }
+
+    .nav-pills {
+        margin-left: -150px;
+    }
+    
+}
+
+
+/*____________________________________________________________________________________________*/
+
+/*_________________________________________1024px_____________________________________________*/
+
+@media screen and (max-width: 1024px) {
+
+    .main-image {
+        margin-left: -50px;
+    }
+
+    .header-top-logo {
+        margin-left: -38px;
+    }
+
+    .company-logo {
+        width: 80%;
+    }
+
+    .dropdown-item {
+        font-size: 14px;
+        margin-left: -10px;
+    }
+
+    .phone-number {
+        display: none;
+    }
+
+    .fw-400 {
+        margin-left: -85px;
+        font-size: 12px;
+    }
+
+    .button {
+        margin-top: 60px;
+    }
+
+    .header-top-list {
+        margin-left: -90px;
+    }
+
+    .card-group {
+        margin-left: -20px;
+        width: 90%;
+    }
+
+    .carousel {
+        margin-left: -40px;
+    }
+
+    .types {
+        margin-left: -30px;
+    }
+
+    .example-title {
+        margin-right: 100px;
+    }
+
+    .image-green {
+        width: 80%;
+    }
+
+    .wallpaper-bottom {
+        margin-left: -80px;
+    }
+
+    .row {
+        margin-left: -50px;
+    }
+
+    .card-body {
+        margin-bottom: -100px;
+        margin-top: -130px;
+        position: absolute;
+    }
+
+    .blank-img {
+        margin-left: -40px;
+        width: 98%;
+    }
+
+    .blank-button {
+        margin-left: -100px;
+    }
+
+    .blank-top-text {
+        margin-left: -100px;
+        margin-top: 110px;
+        font-size: 20px;
+    }
+
+    .map-img {
+        width: 90%;
+        margin-left: -10px;
+    }
+
+    .nav-pills {
+        margin-left: -20px;
+        width: 90%;
+    }
+
+    .footer-bottom {
+        width: 96%;
+    }
+
+
+}
+
+
+/*____________________________________________________________________________________________*/
+
+/*_________________________________________768px______________________________________________*/
+
+@media screen and (max-width: 768px) {
+
+    .main-image {
+        margin-left: -25px;
+    }
+
+    .header-top-logo {
+        margin-left: -10px;
+        margin-top: -35px;
+    }
+
+    .company-logo {
+        width: 50%;
+    }
+
+    .dropdown-item {
+        font-size: 12px;
+    }
+
+    .phone-number {
+        display: none;
+    }
+
+    .fw-400 {
+        display: none;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .header-top-list {
+        margin-left: -140px;
+    }
+
+    .card-group {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    .card-title-main {
+        font-size: 15px ;
+    }
+
+    .card-text-main {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .carousel {
+        margin-left: -25px;
+        width: 100%;
+    }
+
+    .types {
+        margin-left: -20px;
+        width: 90%;
+    }
+
+    .example-title {
+        margin-right: 0px;
+    }
+
+    .example-img {
+        width: 80%;
+    }
+
+    .image-green {
+        width: 100%;
+    }
+
+    .wallpaper-bottom {
+        margin-left: -80px;
+    }
+
+    .row {
+        margin-left: -25px;
+    }
+
+    .card-body {
+        width: 100%;
+        height: 40%;
+        margin-top: -180px;
+        position: absolute;
+    }
+
+    .blank-img {
+        margin-left: -10px;
+        width: 97%;
+    }
+
+    .blank-top-text {
+        margin-left: -100px;
+        margin-top: 250px;
+        font-size: 15px;
+    }
+
+    .blank-button {
+        margin-left: -100px;
+    }
+
+    .map-img {
+        width: 100%;
+        margin-left: -25px;
+    }
+
+    .nav-pills {
+        margin-left: -20px;
+        width: 90%;
+    }
+
+
+    
+}
+
+
+/*____________________________________________________________________________________________*/
+
+/*_________________________________________375px______________________________________________*/
+
+@media screen and (max-width: 375px) {
+
+    .main-image {
+        margin-left: 20px;
+        margin-bottom: -150px;
+    }
+
+    .header-top-logo {
+        margin-left: -38px;
+    }
+
+    .company-logo {
+        width: 60%;
+        margin-left: 60px;
+    }
+
+    .dropdown-item {
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    .phone-number {
+        display: none;
+    }
+
+    .fw-400 {
+        margin-left: -85px;
+        font-size: 12px;
+    }
+
+    .button {
+        margin-top: 60px;
+    }
+
+    .header-top-list {
+        margin-left: -240px;
+    }
+
+    .card-group {
+        margin-left: 100px;
+        width: 70%;
+    }
+
+    .carousel {
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .types {
+        margin-left: 40px;
+    }
+
+    .example-title {
+        display: none;
+    }
+
+    .image-green {
+        display: none;
+    }
+
+    .wallpaper-bottom {
+        margin-left: -20px;
+    }
+
+    .row {
+        margin-left: 20px;
+    }
+
+    .card-body {
+        margin-bottom: -100px;
+        margin-top: -130px;
+        position: absolute;
+    }
+
+    .blank-img {
+        margin-left: 20px;
+        width: 98%;
+        margin-bottom: 250px;
+    }
+
+    .blank-top-text {
+        display: none;
+    }
+
+    .blank-button {
+        display: none;
+    }
+
+    .map-img {
+        width: 90%;
+        margin-left: 35px;
+    }
+
+    .nav-pills {
+        margin-left: -20px;
+        width: 90%;
+        margin-bottom: -50px;
+    }
+
+    .footer-bottom {
+        width: 100%;
+    }
+
+    .logo-bottom {
+        display: none;
+    }
+    
+}
+
+
+/*____________________________________________________________________________________________*/

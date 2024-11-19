@@ -1,0 +1,161 @@
+:root {
+    --bg-color: #fff;
+    --text-color: #000000;
+    --accent-color: #4A614D;
+    --accent-color-two: #BCA196;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main.main {
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration:none;
+}
+
+/*______________________________________Header settings______________________________________*/
+
+.logo-text {
+    font-family: "Montserrat";
+    font-size: 17px;
+}
+
+.dropdown-item {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.phone-number {
+    color: var(--accent-color);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.drop-down:hover {
+    background-color: #C6D4C3;
+}
+
+.list-group-horizontal-lg {
+    list-style: none;
+}
+
+.list-group-horizontal-lg li {
+    margin-right: 32px;
+}
+
+.list-group-horizontal-lg a {
+    transition: transform 0.3s;
+}
+
+.list-group-horizontal-lg a:hover {
+    transform: scale(1.07);
+}
+
+/*_________________________________________________________________________________________*/
+
+/*______________________________________Main settings______________________________________*/
+
+.side-title {
+    font-family: "Montserrat"; 
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.another-color-text {
+    font-family: "Montserrat"; 
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--accent-color);
+}
+
+.main-title {
+    font-family: "Montserrat"; 
+    font-size: 20px;
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
+.text-title {
+    font-family: "Montserrat"; 
+    font-size: 17px;
+    font-weight: 500;
+    color: #474848;
+}
+
+.button {
+    font-family: "Montserrat"; 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/*_________________________________________________________________________________________*/
+
+/*______________________________________Footer settings______________________________________*/
+
+.footer-title {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 25px;
+    color: var(--accent-color);
+    position: absolute; 
+    margin-top: 54px; 
+    margin-left: 98px;
+}
+
+.data-title-main {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 20px;
+    color: var(--bg-color);
+}
+
+.data-title {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 17px;
+    color: var(--bg-color);
+}
+
+.data-text {
+    font-family: "Montserrat"; 
+    font-weight: 400; 
+    font-size: 15px;
+    color: var(--bg-color);
+    margin-top: -15px;
+}
+
+.website {
+    font-family: "Montserrat"; 
+    font-weight: 700; 
+    font-size: 19px;
+    color: var(--accent-color);
+}
+
+/*____________________________________________________________________________________________*/
